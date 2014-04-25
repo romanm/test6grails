@@ -10,6 +10,10 @@ class Patient2Controller {
         redirect(action: "list", params: params)
     }
 
+    def list2() {
+		println "---------list2---hallo-----"
+    	[ patient2InstanceTotal: 123]
+	}
     def list(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         [patient2InstanceList: Patient2.list(params), patient2InstanceTotal: Patient2.count()]

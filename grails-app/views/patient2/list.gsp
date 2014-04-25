@@ -1,4 +1,3 @@
-
 <%@ page import="test6grails.Patient2" %>
 <!DOCTYPE html>
 <html>
@@ -17,6 +16,7 @@
 		</div>
 		<div id="list-patient2" class="content scaffold-list" role="main">
 			<h1><g:message code="default.list.label" args="[entityName]" /></h1>
+			if test=flash.message
 			<g:if test="${flash.message}">
 			<div class="message" role="status">${flash.message}</div>
 			</g:if>
