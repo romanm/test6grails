@@ -1,4 +1,3 @@
-
 <%@ page import="test6grails.Patient2" %>
 <!DOCTYPE html>
 <html>

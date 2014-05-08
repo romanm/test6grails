@@ -1,7 +1,5 @@
 package test6grails
 
-
-
 import grails.test.mixin.*
 import org.junit.*
 
@@ -11,7 +9,7 @@ import org.junit.*
 @TestFor(Patient2)
 class Patient2Tests {
 
-    void testSomething() {
-       fail "Implement me"
-    }
+	void testSomething() {
+		fail "Implement me"
+	}
 }
